@@ -32,5 +32,7 @@ if st.button ('Search'):
 		
         	st.write("\n### Link not found, please specify correct APL link")
 
-link = '[DOCS!](http://github.com)'
+st.markdown('<br>',unsafe_allow_html=True)
+st.markdown('<br>',unsafe_allow_html=True)
+link = '[Need Help? Head to DOCS!](https://github.com/bilalrahim/Semantic-Search-Engine)'
 st.markdown(link, unsafe_allow_html=True)
