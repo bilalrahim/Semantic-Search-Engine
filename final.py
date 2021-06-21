@@ -8,7 +8,7 @@ API_URL = st.sidebar.text_input("Enter API URL")
 
 print(API_URL)
 
-query = st.text_area("Enter Query..")
+query = st.text_area("","Enter Query..")
 
 if st.button ('Search'):
     if API_URL == "":
